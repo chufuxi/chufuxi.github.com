@@ -6,208 +6,52 @@
     <atom:link href="http://incorporated.sendtoinc.com/feed.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <language>en-us</language>
-    <pubDate>Mon, 31 Mar 2014 04:01:46 +0000</pubDate>
-    <lastBuildDate>Mon, 31 Mar 2014 04:01:46 +0000</lastBuildDate>
+    <pubDate>Thu, 03 Apr 2014 05:19:55 +0000</pubDate>
+    <lastBuildDate>Thu, 03 Apr 2014 05:19:55 +0000</lastBuildDate>
 
     
     
     <item>
-      <title>Scrum Practise</title>
-      <link>http://incorporated.sendtoinc.com/2014/03/28/Scrum-Practise1/</link>
-      <pubDate>Fri, 28 Mar 2014 00:00:00 +0000</pubDate>
+      <title>Scrum Practise I</title>
+      <link>http://incorporated.sendtoinc.com/2014/04/03/Scrum-Practise1/</link>
+      <pubDate>Thu, 03 Apr 2014 00:00:00 +0000</pubDate>
       <author></author>
-      <guid>http://incorporated.sendtoinc.com/2014/03/28/Scrum-Practise1</guid>
-      <description>&lt;p&gt;Incorporated provides a great typography, responsive design, author details, semantic markup and more.&lt;/p&gt;
+      <guid>http://incorporated.sendtoinc.com/2014/04/03/Scrum-Practise1</guid>
+      <description>&lt;p&gt;Scrum的计划关注于人，关注于变化。 从这两点出发，Scrum的计划是不要求精准的。事实上也没有项目开发的计划能够精准。 计划永远赶不上变化:(&lt;/p&gt;
 
-&lt;p&gt;You can set customize post covers, and other things directly in the post front matter:&lt;/p&gt;
-&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='yaml'&gt;&lt;span class='l-Scalar-Plain'&gt;layout&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt; &lt;span class='l-Scalar-Plain'&gt;post&lt;/span&gt;
+&lt;p&gt;预估未来的事情，本来就是一个不可能精准结果.举几个例子.&lt;/p&gt;
 
-&lt;span class='l-Scalar-Plain'&gt;title&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt; &lt;span class='l-Scalar-Plain'&gt;Jekyll Incorporated Features&lt;/span&gt;
-&lt;span class='l-Scalar-Plain'&gt;subtitle&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt; &lt;span class='s'&gt;&amp;quot;What&amp;#39;s&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;in&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;the&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;box&amp;quot;&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;老爸让你去打酱油。老爸认为，楼下小店跑个来回10分钟时间足够了。结果过了半小时还没看见你的人。打电话一问，今天小卖部 店庆，打一瓶送一瓶，队伍已经排到小区门口了.&lt;/p&gt;
+&lt;/li&gt;
 
-&lt;span class='c1'&gt;# Setup post cover image in /images/&lt;/span&gt;
-&lt;span class='l-Scalar-Plain'&gt;cover_image&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt; &lt;span class='l-Scalar-Plain'&gt;blog-cover.jpg&lt;/span&gt;
+&lt;li&gt;
+&lt;p&gt;老爸又让你去打酱油，这次很快10分钟不到就上来了.结果老爸拿过酱油一看，向你吼到，这么大的人了，生抽老抽分不清楚啊,买 瓶生抽怎么做菜啊.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;span class='l-Scalar-Plain'&gt;excerpt&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt; &lt;span class='s'&gt;&amp;quot;Incorporated&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;provides&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;a&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;great&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;typography,&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;responsive&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;design,&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;author&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;details,&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;semantic&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;markup&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;and&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;more.&amp;quot;&lt;/span&gt;
+&lt;p&gt;第一种情况是信息不对称，第二种是需求不清.那如果把所有情况都弄清楚了，能不能保证在10分钟之内买会老爸要的酱油那？只能说大概 在这个时间范围内能够搞定打酱油这件事(万一路上碰见央视别采访…).&lt;/p&gt;
 
-&lt;span class='c1'&gt;# Author details, including Google Plus authorship&lt;/span&gt;
-&lt;span class='l-Scalar-Plain'&gt;author&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;
-  &lt;span class='l-Scalar-Plain'&gt;name&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt; &lt;span class='l-Scalar-Plain'&gt;Karri Saarinen&lt;/span&gt;
-  &lt;span class='l-Scalar-Plain'&gt;twitter&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt; &lt;span class='l-Scalar-Plain'&gt;karrisaarinen&lt;/span&gt;
-  &lt;span class='l-Scalar-Plain'&gt;gplus&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt; &lt;span class='l-Scalar-Plain'&gt;100687498195339762535&lt;/span&gt; 
-  &lt;span class='l-Scalar-Plain'&gt;bio&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt; &lt;span class='l-Scalar-Plain'&gt;Co-founder, Design&lt;/span&gt;
-  &lt;span class='l-Scalar-Plain'&gt;image&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt; &lt;span class='l-Scalar-Plain'&gt;ks.jpg&lt;/span&gt;
-  
-&lt;span class='c1'&gt;# Keep it as draft, not published in index.html or feed.xml&lt;/span&gt;
-&lt;span class='l-Scalar-Plain'&gt;draft&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt; &lt;span class='l-Scalar-Plain'&gt;false&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h4 id=&quot;configurable__code_snipped_highlighting&quot;&gt;Configurable &amp;amp; Code Snipped Highlighting&lt;/h4&gt;
+&lt;p&gt;所以，计划的时间都是不精确的，它的意义在于以通用经验来说这完成这件事情预期大概在这么个范围以内.当然经验越丰富，这个范围 会越精确.而这个范围会随着团队工作的推进逐渐变的越来越明确，清晰.团队为了达到这个预期会不断去改进自己的行进方法，并在下一次 的评估中作出更加适合这个团队的预期.&lt;/p&gt;
 
-&lt;p&gt;/assets/stylesheets/main.scss:&lt;/p&gt;
-&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='scss'&gt;&lt;span class='cm'&gt;/* Bodytext font */&lt;/span&gt;
-&lt;span class='nv'&gt;$font&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt; &lt;span class='s2'&gt;&amp;quot;Droid Sans&amp;quot;&lt;/span&gt;&lt;span class='o'&gt;,&lt;/span&gt; &lt;span class='s2'&gt;&amp;quot;Helvetica Neue&amp;quot;&lt;/span&gt;&lt;span class='o'&gt;,&lt;/span&gt; &lt;span class='n'&gt;Helvetica&lt;/span&gt;&lt;span class='o'&gt;,&lt;/span&gt; &lt;span class='n'&gt;Arial&lt;/span&gt;&lt;span class='o'&gt;,&lt;/span&gt; &lt;span class='no'&gt;sans-serif&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
+&lt;p&gt;Planning中有几件事情是非常关键的. * Story的明确，这个明确一定到解释到团队中的每个人都清楚明白，任何有疑问的地方都需要PO来做阐述.&lt;/p&gt;
 
-&lt;span class='cm'&gt;/* Font for headings */&lt;/span&gt;
-&lt;span class='nv'&gt;$fontheadings&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt; &lt;span class='s2'&gt;&amp;quot;Droid Sans&amp;quot;&lt;/span&gt;&lt;span class='o'&gt;,&lt;/span&gt; &lt;span class='s2'&gt;&amp;quot;Helvetica Neue&amp;quot;&lt;/span&gt;&lt;span class='o'&gt;,&lt;/span&gt; &lt;span class='n'&gt;Helvetica&lt;/span&gt;&lt;span class='o'&gt;,&lt;/span&gt; &lt;span class='n'&gt;Arial&lt;/span&gt;&lt;span class='o'&gt;,&lt;/span&gt; &lt;span class='no'&gt;sans-serif&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;优先级，由PO来确定Story的优先级.这个过程是个持续的过程，优先级的调整会伴随着整个开发的过程.&lt;/p&gt;
+&lt;/li&gt;
 
-&lt;span class='cm'&gt;/* Text colors */&lt;/span&gt;
-&lt;span class='nv'&gt;$text&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt; &lt;span class='mh'&gt;#21272d&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
-&lt;span class='nv'&gt;$textmuted&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt; &lt;span class='mh'&gt;#848484&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
-&lt;span class='nv'&gt;$accent&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt; &lt;span class='mh'&gt;#2077b2&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;    
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;config.yml:&lt;/p&gt;
-&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='yaml'&gt;&lt;span class='l-Scalar-Plain'&gt;inc&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;
-  &lt;span class='c1'&gt;# Blog Information&lt;/span&gt;
-  &lt;span class='l-Scalar-Plain'&gt;title&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;        &lt;span class='s'&gt;&amp;quot;Jekyll&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;Incorporated&amp;quot;&lt;/span&gt;
-  &lt;span class='l-Scalar-Plain'&gt;subtitle&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;     &lt;span class='s'&gt;&amp;quot;Modern&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;Jekyll&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;based&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;blog&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;for&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;companies&amp;quot;&lt;/span&gt;
-  &lt;span class='l-Scalar-Plain'&gt;cover_image&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;  &lt;span class='l-Scalar-Plain'&gt;blog-cover.jpg&lt;/span&gt;
-  
-  &lt;span class='c1'&gt;# Company information&lt;/span&gt;
-  &lt;span class='l-Scalar-Plain'&gt;company&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;      &lt;span class='l-Scalar-Plain'&gt;Incorporated&lt;/span&gt;
-  &lt;span class='l-Scalar-Plain'&gt;url&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;          &lt;span class='l-Scalar-Plain'&gt;http://incorporated.sendtoinc.com/&lt;/span&gt;
-  &lt;span class='l-Scalar-Plain'&gt;facebook&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;     &lt;span class='l-Scalar-Plain'&gt;sendtoinc&lt;/span&gt;
-  &lt;span class='l-Scalar-Plain'&gt;twitter&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;      &lt;span class='l-Scalar-Plain'&gt;sendtoinc&lt;/span&gt;
-  &lt;span class='l-Scalar-Plain'&gt;about_link&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;   &lt;span class='l-Scalar-Plain'&gt;https://sendtoinc.com/about/&lt;/span&gt;
-  
-  &lt;span class='c1'&gt;# Product Information&lt;/span&gt;
-  &lt;span class='l-Scalar-Plain'&gt;product_link&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt; &lt;span class='l-Scalar-Plain'&gt;http://incorporated.sendtoinc.com/&lt;/span&gt;
-  &lt;span class='l-Scalar-Plain'&gt;tagline&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;      &lt;span class='s'&gt;&amp;quot;Get&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;a&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;modern&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;blog&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;for&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;your&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;company&amp;quot;&lt;/span&gt;
-  
-  &lt;span class='c1'&gt;# Comments&lt;/span&gt;
-  &lt;span class='l-Scalar-Plain'&gt;disqus&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;
-    &lt;span class='c1'&gt;# Eg. &amp;quot;exampleblog&amp;quot; Set to false to disable comments&lt;/span&gt;
-    &lt;span class='l-Scalar-Plain'&gt;shortname&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;  &lt;span class='l-Scalar-Plain'&gt;false&lt;/span&gt;
-  
-  
-  &lt;span class='c1'&gt;# Sharing settings&lt;/span&gt;
-  &lt;span class='l-Scalar-Plain'&gt;sharing&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;
-    &lt;span class='l-Scalar-Plain'&gt;twitter&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;    &lt;span class='l-Scalar-Plain'&gt;false&lt;/span&gt;
-    &lt;span class='l-Scalar-Plain'&gt;facebook&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;   &lt;span class='l-Scalar-Plain'&gt;false&lt;/span&gt;
-    &lt;span class='l-Scalar-Plain'&gt;gplus&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;      &lt;span class='l-Scalar-Plain'&gt;false&lt;/span&gt;
-    &lt;span class='l-Scalar-Plain'&gt;hn&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;         &lt;span class='l-Scalar-Plain'&gt;false&lt;/span&gt;
-    
-  
- &lt;span class='c1'&gt;# Analytics     &lt;/span&gt;
-  &lt;span class='l-Scalar-Plain'&gt;analytics&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;
-    &lt;span class='l-Scalar-Plain'&gt;google&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt; 
-      &lt;span class='c1'&gt;# eg. &amp;#39;UA-123-12&amp;#39;&lt;/span&gt;
-      &lt;span class='l-Scalar-Plain'&gt;id&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;       &lt;span class='l-Scalar-Plain'&gt;false&lt;/span&gt;    
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Zoomable images&lt;/strong&gt;&lt;/p&gt;
-&lt;div class='full zoomable'&gt;&lt;img src='/images/incorporated.jpg' /&gt;&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Awesome quotes&lt;/strong&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;p&gt;Story评估，由团队对Story进行评估，评估的过程结果需要得到团队成员的一致认可，任何人提出的疑问都需得到解释. 对史诗型故事需要进一步切分成合适尺寸.预期时间过长的Story是没有意义的.&lt;/p&gt;
+&lt;/li&gt;
 
-&lt;blockquote&gt;
-&lt;p&gt;“Effective companies tend to communicate more, their people are curious and they have opinions”&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;li&gt;
+&lt;p&gt;Spint划分，团队对Story做过评估以后，就要将整个开发计划划分到不同Sprint中进行，这个时候需要再次 和PO沟通，确认第一Sprint的Story都是它想要的.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;Stay tuned for updates.&lt;/p&gt;</description>
-    </item>
-    
-    
-    
-    <item>
-      <title>Firstcommit</title>
-      <link>http://incorporated.sendtoinc.com/2014/03/26/FirstCommit/</link>
-      <pubDate>Wed, 26 Mar 2014 00:00:00 +0000</pubDate>
-      <author></author>
-      <guid>http://incorporated.sendtoinc.com/2014/03/26/FirstCommit</guid>
-      <description></description>
-    </item>
-    
-    
-    
-    <item>
-      <title>Jekyll Incorporated Features</title>
-      <link>http://incorporated.sendtoinc.com/2013/10/08/incorporated/</link>
-      <pubDate>Tue, 08 Oct 2013 00:00:00 +0000</pubDate>
-      <author></author>
-      <guid>http://incorporated.sendtoinc.com/2013/10/08/incorporated</guid>
-      <description>&lt;p&gt;Incorporated provides a great typography, responsive design, author details, semantic markup and more.&lt;/p&gt;
-
-&lt;p&gt;You can set customize post covers, and other things directly in the post front matter:&lt;/p&gt;
-&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='yaml'&gt;&lt;span class='l-Scalar-Plain'&gt;layout&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt; &lt;span class='l-Scalar-Plain'&gt;post&lt;/span&gt;
-
-&lt;span class='l-Scalar-Plain'&gt;title&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt; &lt;span class='l-Scalar-Plain'&gt;Jekyll Incorporated Features&lt;/span&gt;
-&lt;span class='l-Scalar-Plain'&gt;subtitle&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt; &lt;span class='s'&gt;&amp;quot;What&amp;#39;s&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;in&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;the&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;box&amp;quot;&lt;/span&gt;
-
-&lt;span class='c1'&gt;# Setup post cover image in /images/&lt;/span&gt;
-&lt;span class='l-Scalar-Plain'&gt;cover_image&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt; &lt;span class='l-Scalar-Plain'&gt;blog-cover.jpg&lt;/span&gt;
-
-&lt;span class='l-Scalar-Plain'&gt;excerpt&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt; &lt;span class='s'&gt;&amp;quot;Incorporated&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;provides&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;a&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;great&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;typography,&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;responsive&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;design,&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;author&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;details,&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;semantic&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;markup&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;and&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;more.&amp;quot;&lt;/span&gt;
-
-&lt;span class='c1'&gt;# Author details, including Google Plus authorship&lt;/span&gt;
-&lt;span class='l-Scalar-Plain'&gt;author&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;
-  &lt;span class='l-Scalar-Plain'&gt;name&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt; &lt;span class='l-Scalar-Plain'&gt;Karri Saarinen&lt;/span&gt;
-  &lt;span class='l-Scalar-Plain'&gt;twitter&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt; &lt;span class='l-Scalar-Plain'&gt;karrisaarinen&lt;/span&gt;
-  &lt;span class='l-Scalar-Plain'&gt;gplus&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt; &lt;span class='l-Scalar-Plain'&gt;100687498195339762535&lt;/span&gt; 
-  &lt;span class='l-Scalar-Plain'&gt;bio&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt; &lt;span class='l-Scalar-Plain'&gt;Co-founder, Design&lt;/span&gt;
-  &lt;span class='l-Scalar-Plain'&gt;image&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt; &lt;span class='l-Scalar-Plain'&gt;ks.jpg&lt;/span&gt;
-  
-&lt;span class='c1'&gt;# Keep it as draft, not published in index.html or feed.xml&lt;/span&gt;
-&lt;span class='l-Scalar-Plain'&gt;draft&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt; &lt;span class='l-Scalar-Plain'&gt;false&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h4 id=&quot;configurable__code_snipped_highlighting&quot;&gt;Configurable &amp;amp; Code Snipped Highlighting&lt;/h4&gt;
-
-&lt;p&gt;/assets/stylesheets/main.scss:&lt;/p&gt;
-&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='scss'&gt;&lt;span class='cm'&gt;/* Bodytext font */&lt;/span&gt;
-&lt;span class='nv'&gt;$font&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt; &lt;span class='s2'&gt;&amp;quot;Droid Sans&amp;quot;&lt;/span&gt;&lt;span class='o'&gt;,&lt;/span&gt; &lt;span class='s2'&gt;&amp;quot;Helvetica Neue&amp;quot;&lt;/span&gt;&lt;span class='o'&gt;,&lt;/span&gt; &lt;span class='n'&gt;Helvetica&lt;/span&gt;&lt;span class='o'&gt;,&lt;/span&gt; &lt;span class='n'&gt;Arial&lt;/span&gt;&lt;span class='o'&gt;,&lt;/span&gt; &lt;span class='no'&gt;sans-serif&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
-
-&lt;span class='cm'&gt;/* Font for headings */&lt;/span&gt;
-&lt;span class='nv'&gt;$fontheadings&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt; &lt;span class='s2'&gt;&amp;quot;Droid Sans&amp;quot;&lt;/span&gt;&lt;span class='o'&gt;,&lt;/span&gt; &lt;span class='s2'&gt;&amp;quot;Helvetica Neue&amp;quot;&lt;/span&gt;&lt;span class='o'&gt;,&lt;/span&gt; &lt;span class='n'&gt;Helvetica&lt;/span&gt;&lt;span class='o'&gt;,&lt;/span&gt; &lt;span class='n'&gt;Arial&lt;/span&gt;&lt;span class='o'&gt;,&lt;/span&gt; &lt;span class='no'&gt;sans-serif&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
-
-&lt;span class='cm'&gt;/* Text colors */&lt;/span&gt;
-&lt;span class='nv'&gt;$text&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt; &lt;span class='mh'&gt;#21272d&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
-&lt;span class='nv'&gt;$textmuted&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt; &lt;span class='mh'&gt;#848484&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;
-&lt;span class='nv'&gt;$accent&lt;/span&gt;&lt;span class='o'&gt;:&lt;/span&gt; &lt;span class='mh'&gt;#2077b2&lt;/span&gt;&lt;span class='p'&gt;;&lt;/span&gt;    
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;config.yml:&lt;/p&gt;
-&lt;div class='highlight'&gt;&lt;pre&gt;&lt;code class='yaml'&gt;&lt;span class='l-Scalar-Plain'&gt;inc&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;
-  &lt;span class='c1'&gt;# Blog Information&lt;/span&gt;
-  &lt;span class='l-Scalar-Plain'&gt;title&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;        &lt;span class='s'&gt;&amp;quot;Jekyll&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;Incorporated&amp;quot;&lt;/span&gt;
-  &lt;span class='l-Scalar-Plain'&gt;subtitle&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;     &lt;span class='s'&gt;&amp;quot;Modern&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;Jekyll&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;based&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;blog&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;for&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;companies&amp;quot;&lt;/span&gt;
-  &lt;span class='l-Scalar-Plain'&gt;cover_image&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;  &lt;span class='l-Scalar-Plain'&gt;blog-cover.jpg&lt;/span&gt;
-  
-  &lt;span class='c1'&gt;# Company information&lt;/span&gt;
-  &lt;span class='l-Scalar-Plain'&gt;company&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;      &lt;span class='l-Scalar-Plain'&gt;Incorporated&lt;/span&gt;
-  &lt;span class='l-Scalar-Plain'&gt;url&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;          &lt;span class='l-Scalar-Plain'&gt;http://incorporated.sendtoinc.com/&lt;/span&gt;
-  &lt;span class='l-Scalar-Plain'&gt;facebook&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;     &lt;span class='l-Scalar-Plain'&gt;sendtoinc&lt;/span&gt;
-  &lt;span class='l-Scalar-Plain'&gt;twitter&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;      &lt;span class='l-Scalar-Plain'&gt;sendtoinc&lt;/span&gt;
-  &lt;span class='l-Scalar-Plain'&gt;about_link&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;   &lt;span class='l-Scalar-Plain'&gt;https://sendtoinc.com/about/&lt;/span&gt;
-  
-  &lt;span class='c1'&gt;# Product Information&lt;/span&gt;
-  &lt;span class='l-Scalar-Plain'&gt;product_link&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt; &lt;span class='l-Scalar-Plain'&gt;http://incorporated.sendtoinc.com/&lt;/span&gt;
-  &lt;span class='l-Scalar-Plain'&gt;tagline&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;      &lt;span class='s'&gt;&amp;quot;Get&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;a&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;modern&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;blog&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;for&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;your&lt;/span&gt;&lt;span class='nv'&gt; &lt;/span&gt;&lt;span class='s'&gt;company&amp;quot;&lt;/span&gt;
-  
-  &lt;span class='c1'&gt;# Comments&lt;/span&gt;
-  &lt;span class='l-Scalar-Plain'&gt;disqus&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;
-    &lt;span class='c1'&gt;# Eg. &amp;quot;exampleblog&amp;quot; Set to false to disable comments&lt;/span&gt;
-    &lt;span class='l-Scalar-Plain'&gt;shortname&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;  &lt;span class='l-Scalar-Plain'&gt;false&lt;/span&gt;
-  
-  
-  &lt;span class='c1'&gt;# Sharing settings&lt;/span&gt;
-  &lt;span class='l-Scalar-Plain'&gt;sharing&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;
-    &lt;span class='l-Scalar-Plain'&gt;twitter&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;    &lt;span class='l-Scalar-Plain'&gt;false&lt;/span&gt;
-    &lt;span class='l-Scalar-Plain'&gt;facebook&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;   &lt;span class='l-Scalar-Plain'&gt;false&lt;/span&gt;
-    &lt;span class='l-Scalar-Plain'&gt;gplus&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;      &lt;span class='l-Scalar-Plain'&gt;false&lt;/span&gt;
-    &lt;span class='l-Scalar-Plain'&gt;hn&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;         &lt;span class='l-Scalar-Plain'&gt;false&lt;/span&gt;
-    
-  
- &lt;span class='c1'&gt;# Analytics     &lt;/span&gt;
-  &lt;span class='l-Scalar-Plain'&gt;analytics&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;
-    &lt;span class='l-Scalar-Plain'&gt;google&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt; 
-      &lt;span class='c1'&gt;# eg. &amp;#39;UA-123-12&amp;#39;&lt;/span&gt;
-      &lt;span class='l-Scalar-Plain'&gt;id&lt;/span&gt;&lt;span class='p-Indicator'&gt;:&lt;/span&gt;       &lt;span class='l-Scalar-Plain'&gt;false&lt;/span&gt;    
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Zoomable images&lt;/strong&gt;&lt;/p&gt;
-&lt;div class='full zoomable'&gt;&lt;img src='/images/incorporated.jpg' /&gt;&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Awesome quotes&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“Effective companies tend to communicate more, their people are curious and they have opinions”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Stay tuned for updates.&lt;/p&gt;</description>
+&lt;p&gt;产出发布计划，里程碑 通过计划和里程碑，来测量团队的行进速度，发现问题，持续改进.&lt;/p&gt;</description>
     </item>
     
     
