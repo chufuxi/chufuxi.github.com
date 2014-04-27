@@ -6,9 +6,102 @@
     <atom:link href="http://incorporated.sendtoinc.com/feed.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <language>en-us</language>
-    <pubDate>Mon, 14 Apr 2014 03:43:55 +0000</pubDate>
-    <lastBuildDate>Mon, 14 Apr 2014 03:43:55 +0000</lastBuildDate>
+    <pubDate>Sun, 27 Apr 2014 11:20:08 +0000</pubDate>
+    <lastBuildDate>Sun, 27 Apr 2014 11:20:08 +0000</lastBuildDate>
 
+    
+    
+    <item>
+      <title>规则的建立</title>
+      <link>http://incorporated.sendtoinc.com/2014/04/27/%E8%A7%84%E5%88%99%E7%9A%84%E5%BB%BA%E7%AB%8B-Android%E5%B1%8F%E5%B9%95%E5%8D%B7%E5%8A%A8%E5%88%86%E6%9E%90/</link>
+      <pubDate>Sun, 27 Apr 2014 00:00:00 +0000</pubDate>
+      <author></author>
+      <guid>http://incorporated.sendtoinc.com/2014/04/27/规则的建立-Android屏幕卷动分析</guid>
+      <description>&lt;h2 id=&quot;&quot;&gt;由一个问题引发的思考&lt;/h2&gt;
+
+&lt;p&gt;Launcher是否需要支持屏幕循环滚动的功能？&lt;/p&gt;
+
+&lt;h2 id=&quot;_2&quot;&gt;为啥用户希望桌面能够循环滚动？&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;循环滚动貌似是一个很爽的特性，用户可以连续性的滚动而不受到打断，滑啊滑啊滑&lt;/li&gt;
+
+&lt;li&gt;实现跨边界屏幕的便捷切换，如最后一屏到第一屏，第一屏到最后一屏&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;googleapple&quot;&gt;为啥Google，Apple都没有&lt;/h2&gt;
+
+&lt;p&gt;首先引入俩个参考资料&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://msdn.microsoft.com/en-us/library/windowsphone/design/hh202912(v=vs.105).aspx&quot;&gt;Metro Panorama和Pivot控件&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;http://www.zhihu.com/question/22109997&quot;&gt;知乎的讨论&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;看完了这两个资料已经大致可以看出原生设计的概念和目的.&lt;/p&gt;
+
+&lt;p&gt;再来看下Android原生Launcher的样子，用惯了国内小米等厂商的用户们可能根本就不知道原生Launcher这回事：）&lt;/p&gt;
+
+&lt;p&gt;原生桌面&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;屏幕只有5个，不能添加&lt;/li&gt;
+
+&lt;li&gt;默认主屏幕居中，不能改变主屏位置&lt;/li&gt;
+
+&lt;li&gt;壁纸可以卷动&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;_3&quot;&gt;用户的需求是什么？&lt;/h2&gt;
+
+&lt;p&gt;要解决问题，必须要先知道用户的需求到底是什么？&lt;br /&gt;启动器/主屏”的本质: 快速寻找 + 定位用户需要的应用&lt;/p&gt;
+
+&lt;h2 id=&quot;_4&quot;&gt;原生的设计到能够满足需求吗？&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;5个屏幕保证用户可用屏幕数，使用超过5个屏幕&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;用户的记忆能力再牛逼也无法知道自己想要定位的应用在哪里.国内厂商的开放添加屏幕的功能，最终用户又能使用多少个屏幕那？ 使用十几个屏幕的用户是给自己在制作麻烦还是添加便利？&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;固定主屏，建立认知.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;让用户任何时候都确定的知道自己主屏在哪里. 主屏的居中位置在用户的长期使用中成为路标.记住主屏的左右屏幕大概放置了什么内容 永远比记住第一屏放了什么，第二屏放了什么，第三屏放了什么容易的多.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;文件夹，使用文件夹来归纳和整理用户超多的应用体系.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;实际上文件夹建立了在屏幕内的层级结构，就像我们平时的目录层次结构，让用户安照层级向下查找更 容易的多。要知道用户能够记住的图标不会超过十个，建立查找路径和路标，能够帮助用户清晰的到达所要的位置.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;壁纸卷动，给用户非常明显屏幕移动感&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;用户在滑动屏幕时，聚焦在屏幕的内容上，而不是屏幕下方的指示器上，背景的卷动能够非常好的提示用户现在的屏幕位置 不然你确定用户看着满屏图标真的知道自己在哪一屏吗？&lt;/p&gt;
+
+&lt;p&gt;最终给用户建立了一个清晰的坐标体系：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    大厅（主屏）  
+        卧室（大厅左拐）  
+        书房（大厅右拐）   
+            书架第一层科幻小说（文件夹）  
+                黑暗森林  &lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;_5&quot;&gt;原生设计的目的&lt;/h2&gt;
+
+&lt;p&gt;实际上Android的原生设计是给用户建立了一套路标和层级体系，让用户在寻找内容时能够快速按照清晰的路径找到所要的东西. 不要指望用户会记得每个图标放置在什么位置，建立查找规则，帮助用户快速成功的定位才能满足需求.&lt;/p&gt;
+
+&lt;h2 id=&quot;_6&quot;&gt;回到最早的问题&lt;/h2&gt;
+
+&lt;p&gt;滚动屏幕能够满足用户的需求吗？&lt;/p&gt;
+
+&lt;p&gt;滚动屏幕打破了边界，用户可以循环滚动，实际上所有的屏幕位置变得不确定.&lt;br /&gt;滚动了几次以后，用户已经不能够清晰知道自己在哪个屏幕了，可能需要去看指示器才能知道在哪个屏幕.&lt;/p&gt;
+
+&lt;p&gt;在这样状态下继续去查找应用，你还知道你现在在哪个房间里面吗？&lt;/p&gt;
+
+&lt;p&gt;任意设置主屏，导致主屏的失去了路标作用，随意变化的主屏，你还知道家里的大厅在哪里吗？&lt;/p&gt;</description>
+    </item>
+    
     
     
     <item>
