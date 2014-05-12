@@ -4,7 +4,7 @@ layout: post
 title: 改造WordPress
 subtitle: 一个庞大而复杂的CMS
 
-excerpt: 让WordPress更好用，更方便
+excerpt: 让WordPress更好用，更方便, 更爽
 
 author:
   name: 褚福玺
