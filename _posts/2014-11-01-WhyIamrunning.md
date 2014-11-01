@@ -3,11 +3,11 @@ layout: post
 
 title: 为什么要跑步
 
-excerpt: 写在第一个10k达成
+excerpt: 10K目标达成
 
 author:
-	name: 褚福玺
---- 
+  name: 褚福玺
+---
 
 #2014.11.1 跑完第一个10k。
 
