@@ -1,8 +1,8 @@
 # Site settings
-title:       Note C. 
+title:       Note C.
 email:       chufuxi@gmail.com
-author:      ChuFuxi 
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+author:      ChuFuxi
+description: ""
 baseurl:     ""
 url:         "http://chufuxi.github.io/"
 

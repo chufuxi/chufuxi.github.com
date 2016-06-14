@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Android UI Performance I
-date:       2014-06-10 12:31:19
+date:       2015-07-22 12:31:19
 summary:    理解Display List,VSYNC，Android渲染过程
 categories: performance
 ---
@@ -96,4 +96,3 @@ VSYNC在ISC版本之后开始用来同步所有的界面沪指相关的工作，
 **Property Change**过程任然使用原先创建的DisplayList绘制，来进行矩阵变换达到属性变换的效果 （无需onDraw）
 
 ![btnproperty](http://7xkehk.com1.z0.glb.clouddn.com/performance2/btnRenderProperty.png)
-

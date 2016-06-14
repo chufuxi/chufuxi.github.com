@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      Android Memory Performance 
-date:       2014-06-10 12:31:19
+title:      Android Memory Performance
+date:       2015-08-11 12:31:19
 summary:    合理使用内存，避免泄露！
 categories: performance
 ---
@@ -78,10 +78,10 @@ Woops, 第二帧的绘制过程超过了16ms, 在这个时候应用就会表现�
 
 ~~~java
 public LeakActivity extande Activity {
-	
+
 	//Leak activity if handler run out of this activity.
 	private Handler mHandler = new Handler () {
-	
+
 		@Override
 		public void handlerMessage(Message msg) {
 			//do something
@@ -98,5 +98,3 @@ Enums需要的内存是使用static constants的两倍！
 
 [https://developer.android.com/reference/android/support/annotation/IntDef.html](https://developer.android.com/reference/android/support/annotation/IntDef.html)
 [http://tools.android.com/tech-docs/support-annotations](http://tools.android.com/tech-docs/support-annotations)
-
-
