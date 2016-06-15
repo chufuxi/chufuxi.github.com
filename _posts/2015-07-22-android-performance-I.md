@@ -7,7 +7,7 @@ categories: performance
 ---
 
 
-##Display List  
+## Display List  
 在3.0之前，Android平台是不提供硬件加速的功能的，所有绘制过程是通过软件绘制来完成，  
 在3.0之后，Android提供的硬件加速的功能，就是我们所熟悉的下面配置
 ![hardwareacc](http://7xkehk.com1.z0.glb.clouddn.com/hardwareacc.png)  
@@ -43,7 +43,7 @@ invalidate相应的View（不需要再draw一次）, 而只需要简单对包含
 
 属性变化时不需要再重新生成DisplayList
 
-##VSYNC
+## VSYNC
 
 Android在JB版本就开始引入了VSYNC来完成刷新率和渲染速度的同步，用来解决Tearing问题，也就是同时在屏幕上看到新旧画面的问题。
 
@@ -75,7 +75,7 @@ VSYNC在ISC版本之后开始用来同步所有的界面沪指相关的工作，
 
 保证所有的绘制工作在一个VSYNC周期中完成，16ms是完成所有绘制工作的底线。
 
-###Android渲染过程
+### Android渲染过程
 
 我们一般用来实现界面的布局文件被翻译成GPU可识别的样式，也就是GL命令和需要的资源，再通过GPU的按照命令绘制实际图形，最终再显示在设备屏幕，形成我们最终可见的界面。
 
